@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dasar/gambar.dart';
 import 'package:flutter_dasar/text.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const TextWidget(),
+      home: const gambarWidget(),
     );
   }
 }
