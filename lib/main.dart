@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dasar/dialog.dart';
 import 'package:flutter_dasar/gambar.dart';
 import 'package:flutter_dasar/text.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const gambarWidget(),
+      home: const dialogWidget(),
     );
   }
 }
