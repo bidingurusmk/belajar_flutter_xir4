@@ -22,7 +22,9 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const TanggalWidget(),
+      home: const TanggalWidget(
+        title: "Date Time",
+      ),
     );
   }
 }
