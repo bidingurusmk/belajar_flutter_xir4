@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dasar/container.dart';
 import 'package:flutter_dasar/dialog.dart';
 import 'package:flutter_dasar/gambar.dart';
 import 'package:flutter_dasar/tanggal.dart';
@@ -22,9 +23,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const TanggalWidget(
-        title: "Date Time",
-      ),
+      home: ContainerWidget(),
     );
   }
 }
